@@ -2,11 +2,9 @@ import Products from "./components/Products/Products";
 
 function App() {
   return (
-    <>
-      <div>
-        <Products />
-      </div>
-    </>
+    <div className="app">
+      <Products />
+    </div>
   );
 }
 

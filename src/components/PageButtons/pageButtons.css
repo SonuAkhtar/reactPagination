@@ -1,0 +1,32 @@
+.buttons__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.buttons__wrapper i,
+button {
+  background-color: #ffe5f4;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.buttons__wrapper i:hover,
+button.current,
+button:hover {
+  background-color: #e50087;
+  color: white;
+}
+
+.buttons__wrapper i.disabled {
+  background-color: lightgray;
+  color: gray;
+  cursor: not-allowed;
+}
